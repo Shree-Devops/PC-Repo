@@ -1,0 +1,25 @@
+pipeline{
+
+agent any{
+
+stages{
+
+stage('one'){
+
+steps{
+echo 'stage 1 message'
+}
+
+}
+stage('two'){
+steps{echo 'stage 2 message'}
+}
+stage('three'){
+steps{echo 'stage 3 message'}
+}
+
+}
+
+}
+
+}
